@@ -37,4 +37,4 @@ jobs:
       - name: Run tests
         run: |
           python -c "import requests, httpx; print('Dependencies successfully verified in python!')"
-          pytest --version
+          python --version
